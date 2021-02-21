@@ -1,6 +1,6 @@
 [Unit]
-Requires=zookeeper.service
-After=zookeeper.service
+Requires=zk.service
+After=zk.service
 
 [Service]
 Type=simple
